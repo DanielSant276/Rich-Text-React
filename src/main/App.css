@@ -32,7 +32,7 @@ img {
   height: 25px;
 }
 
-.align-button {
+.align button {
   padding: 4px 4px 0 4px;
   margin: 0 8px 0 0;
 }
@@ -58,4 +58,45 @@ textarea {
 
 button:hover {
   background-color: #B9E880;
+}
+
+/*Active and deactivated classes*/
+.textarea-bold {
+  font-weight: bold;
+}
+
+.textarea-italic {
+  font-style: italic;
+}
+
+.textarea-underline {
+  text-decoration: underline;
+}
+
+.textarea-align-center {
+  text-align: center;
+}
+
+.textarea-align-right {
+  text-align: right;
+}
+
+.textarea-align-justify {
+  text-align: justify;
+}
+
+.textarea-size-18 {
+  font-size: 18px;
+}
+
+.textarea-size-22 {
+  font-size: 22px;
+}
+
+.textarea-size-24 {
+  font-size: 24px;
+}
+
+.textarea-size-26 {
+  font-size: 26px;
 }
